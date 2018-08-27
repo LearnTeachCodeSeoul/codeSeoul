@@ -9,6 +9,9 @@ const ShowContentBtn = styled.button`
   background-color: ${props => (props.isDisabled ? 'gray' : '#f77f00')};
   color: white;
   border-radius: 3px;
+  :hover{
+    cursor : pointer;
+  }
 `;
 
 export default ShowContentBtn;
